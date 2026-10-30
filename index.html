@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zetsu — Портал в мир аниме</title>
+    <!-- Подключение шрифтов из вашего CSS -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Manrope:wght@400;500;700&family=Unbounded:wght@700;800;900&display=swap" rel="stylesheet">
+    <!-- Подключение вашего файла стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-shell">
+
+        <!-- Шапка сайта -->
+        <header class="site-header">
+            <a href="#" class="brand">
+                <span class="brand-mark">Z</span>
+                ZETSU
+            </a>
+            
+            <input type="checkbox" id="nav-trigger" class="menu-toggle">
+            <label for="nav-trigger" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="main-nav">
+                <a href="#features">Преимущества</a>
+                <a href="#trending">Тренды</a>
+                <a href="#membership">Тарифы</a>
+            </nav>
+
+            <a href="#" class="header-login">Войти <span>→</span></a>
+        </header>
+
+        <!-- Главный экран (Hero) -->
+        <section class="section-frame hero">
+            <div class="hero-copy">
+                <div class="eyebrow"><span class="signal-dot"></span>Онлайн платформа</div>
+                <h1>Твой портал в мир <span>аниме</span></h1>
+                <p class="hero-text">Смотри свежие онгоинги в ультра-качестве Full HD, читай мангу и обсуждай любимые тайтлы в живом сообществе Zetsu.</p>
+                <div class="hero-actions">
+                    <a href="#trending" class="button button-primary">Начать смотреть</a>
+                    <a href="#membership" class="button button-secondary">Выбрать тариф</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <strong>10k+</strong>
+                        <span>Тайтлов в базе</span>
+                    </div>
+                    <div>
+                        <strong>4K</strong>
+                        <span>Качество стриминга</span>
+                    </div>
+                    <div>
+                        <strong>24/7</strong>
+                        <span>Обновления серий</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-art">
+                <div class="hero-scanlines"></div>
+                <div class="hero-art-label">SYSTEM_STATUS // ACTIVE</div>
+                <div class="hero-orb orb-one"></div>
+                <div class="hero-orb orb-two"></div>
+                <div class="hero-silhouette"></div>
+            </div>
+        </section>
+
+        <!-- Блок преимуществ (Features) -->
+        <section id="features" class="section-frame features">
+            <div class="section-heading">
+                <h2>Наши <span>плюсы</span></h2>
+                <p>Почему тысячи фанатов выбирают смотреть аниме именно у нас.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✦</div>
+                    <h3>Ультра-качество</h3>
+                    <p>Стриминг в Full HD и 4K разрешении без лагов, зависаний плеера и рекламы.</p>
+                    <a href="#">Подробнее →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❖</div>
+                    <h3>Огромная база</h3>
+                    <p>Тысячи аниме, свежие онгоинги, фильмы и редкая классика с топовой озвучкой.</p>
+                    <a href="#">Подробнее →</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">▲</div>
+                    <h3>Сообщество</h3>
+                    <p>Делись мнением, пиши рецензии, прокачивай профиль и общайся в уютных чатах.</p>
+                    <a href="#">Подробнее →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок трендов (Trending) -->
+        <section id="trending" class="section-frame trending">
+            <div class="section-heading compact">
+                <h2>Тренды <span>сезона</span></h2>
+                <a href="#" class="text-link">Смотреть все новинки →</a>
+            </div>
+            <div class="anime-grid">
+                <div class="anime-card poster-one">
+                    <div class="poster-content">
+                        <span class="poster-badge">9.4</span>
+                        <div>
+                            <h3>Магическая Битва</h3>
+                            <p>Сезон 2 / Экшен</p>
+                            <a href="#">Смотреть серию →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="anime-card poster-two">
+                    <div class="poster-content">
+                        <span class="poster-badge">9.1</span>
+                        <div>
+                            <h3>Человек-Бензопила</h3>
+                            <p>Сезон 1 / Триллер</p>
+                            <a href="#">Смотреть серию →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="anime-card poster-three">
+                    <div class="poster-content">
+                        <span class="poster-badge">8.9</span>
+                        <div>
+                            <h3>Истребитель Демонов</h3>
+                            <p>Арка Тренировки / Фэнтези</p>
+                            <a href="#">Смотреть серию →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="anime-card poster-four">
+                    <div class="poster-content">
+                        <span class="poster-badge">9.5</span>
+                        <div>
+                            <h3>Атака Титанов</h3>
+                            <p>Финал / Драма</p>
+                            <a href="#">Смотреть серию →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок тарифов (Membership) -->
+        <section id="membership" class="section-frame membership">
+            <div class="section-heading">
+                <h2>Доступные <span>планы</span></h2>
+                <p>Выбери свой уровень погружения в мир Zetsu.</p>
+            </div>
+            <div class="plans">
+                <div class="plan-card">
+                    <div>
+                        <p class="plan-kicker">Базовый аккаунт</p>
+                        <h3>Zetsu Free</h3>
+                        <div class="price">0 ₽ <small>/ навсегда</small></div>
+                        <ul>
+                            <li>Качество видео до 720p</li>
+                            <li>Реклама во время плеера</li>
+                            <li>Стандартные плееры и озвучки</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button button-secondary">Начать бесплатно</a>
+                </div>
+                <div class="plan-card premium">
+                    <span class="popular">ПОПУЛЯРНО</span>
+                    <div>
+                        <p class="plan-kicker">Максимальный доступ</p>
+                        <h3>Zetsu Premium</h3>
+                        <div class="price">299 ₽ <small>/ месяц</small></div>
+                        <ul>
+                            <li>Качество до 4K Ultra HD</li>
+                            <li>Абсолютно нулевая реклама</li>
+                            <li>Ранний доступ к новым сериям</li>
+                            <li>Кастомные аватарки и значки в чате</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="button button-primary">Активировать подписку</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- Подвал сайта (Footer) -->
+        <footer class="site-footer">
+            <p>&copy; 2026 Zetsu Studio</p> <!-- Убедитесь, что эта строка у вас осталась сверху -->
+            <small>Все права защищены. Контент предоставлен для ознакомления.</small>
+            <div class="socials">
+                <a href="https://t.me" target="_blank">TG</a>
+                <a href="https://discord.gg" target="_blank">DS</a>
+                <a href="https://vk.com" target="_blank">VK</a>
+            </div>
+        </footer>
+
+    </div> <!-- Конец site-shell -->
+
+</body>
+</html>
